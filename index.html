@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bộ thẻ sơ cấp cứu AR</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    color:#0a7d6c;
+    margin-bottom:30px;
+}
+
+.card{
+    display:inline-block;
+    width:250px;
+    background:white;
+    margin:15px;
+    padding:15px;
+    border-radius:15px;
+    box-shadow:0 0 10px lightgray;
+    vertical-align: top;
+}
+
+.card img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+button{
+    background:#0a7d6c;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+button:hover{
+    background:#08695a;
+}
+
+.ar-button{
+    background:#ff9800;
+    font-size:18px;
+    padding:15px 30px;
+    margin-bottom:30px;
+}
+
+.ar-button:hover{
+    background:#e68900;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>BỘ THẺ SƠ CẤP CỨU AR</h1>
+
+<!-- Nút mở WebAR -->
+<button class="ar-button" onclick="location.href='ar.html'">
+📷 Quét thẻ bằng AR
+</button>
+
+<br><br>
+
+<!-- Thẻ Bỏng -->
+<div class="card">
+    <h2>🩹 Bỏng</h2>
+
+    <img src="images/burn.png" alt="Bỏng">
+
+    <br><br>
+
+    <button onclick="location.href='burn.html'">
+        Xem hướng dẫn
+    </button>
+</div>
+
+<!-- Thẻ Chảy máu -->
+<div class="card">
+    <h2>🩸 Chảy máu</h2>
+
+    <img src="images/bleeding.png" alt="Chảy máu">
+
+    <br><br>
+
+    <button onclick="location.href='bleeding.html'">
+        Xem hướng dẫn
+    </button>
+</div>
+
+<!-- Thẻ Hóc dị vật -->
+<div class="card">
+    <h2>😮‍💨 Hóc dị vật</h2>
+
+    <img src="images/choking.png" alt="Hóc dị vật">
+
+    <br><br>
+
+    <button onclick="location.href='choking.html'">
+        Xem hướng dẫn
+    </button>
+</div>
+
+</body>
+</html>
